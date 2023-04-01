@@ -5,7 +5,7 @@ import { RouterLink } from "vue-router";
   <header class="container">
     <div class="branding">
       <img src="../assets/Vue_Logo_Black.png" alt="Vue image" />
-      <h1>Vue Todo</h1>
+      <h1>Vue Todos</h1>
     </div>
     <nav>
       <RouterLink to="/">Todos</RouterLink>
