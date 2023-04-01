@@ -1,12 +1,18 @@
 <template>
   <div class="about container">
     <h1>Vue Todos</h1>
-    <p> Vue Todos is a CRUD Todo tracking application created for a Vue 3 Crash Course by John Komarnicki. </p>
+    <p>
+      Track your daily task's using this todo tracker
+      with abilities to save, complete, edit & delete todos. 
+    </p>
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .about {
   padding: 25px 16px;
+  p {
+    margin-block: 1em;
+  }
 }
 </style>
