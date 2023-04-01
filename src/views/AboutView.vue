@@ -1,15 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="about container">
+    <h1>Vue Todos</h1>
+    <p> Vue Todos is a CRUD Todo tracking application created for a Vue 3 Crash Course by John Komarnicki. </p>
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+.about {
+  padding: 25px 16px;
 }
 </style>
